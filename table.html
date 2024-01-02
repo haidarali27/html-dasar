@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Belajar Tabel di HTML</title>
+</head>
+<body>
+
+
+<h3>Belajar Membuat Table di HTML</h3>
+<table style="border: 2px solid; color: dark;">
+	<colgroup> <!-- colgrup untuk memberi style pada kolom tabel -->
+		<col span="2" style="background-color: yellow;">
+		<col style="background-color: aqua;">
+	</colgroup>
+	<thead>
+		<tr>
+			<th colspan="2">Nama</th> <!-- colspan untuk menggabungkan beberapa kolom di 1 baris yg sama -->
+			<th>Nilai</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Haidar Ali</td>
+			<td>Akbar</td>
+			<td>90</td>
+		</tr>
+		<tr>
+			<td>Ayu Syifa</td>
+			<td>Fadillah</td>
+			<td>100</td>
+		</tr>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td rowspan="2">Total</td> <!-- rowspan utk join beberapa kolom di baris yg berbeda -->
+			<td>Total</td>
+			<td>190</td>
+		</tr>
+		<tr>
+			<td>Rata-Rata</td>
+			<td>95</td>
+		</tr>
+		
+	</tfoot>
+	
+
+</table>
+
+</body>
+</html>
